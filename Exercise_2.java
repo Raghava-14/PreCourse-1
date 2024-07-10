@@ -1,5 +1,5 @@
 // Time Complexity is: O(1)
-// Space Complexity is: O(N) *n is the number of elements
+// Space Complexity is: O(n)
 class StackAsLinkedList {
   
     StackNode root; 

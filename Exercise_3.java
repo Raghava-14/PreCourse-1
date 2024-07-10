@@ -65,8 +65,9 @@ class LinkedList {
     {
         /* Start with the empty list. */
         LinkedList list = new LinkedList();
-
+        //
         // ******INSERTION******
+        //
 
         // Insert the values
         list = insert(list, 1);

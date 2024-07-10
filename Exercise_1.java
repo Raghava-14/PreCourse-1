@@ -1,4 +1,4 @@
-// The Time Complexity for this program is: O(1)
+// The Time Complexity is: O(1)
 // Space Complexity is: O(1)
 class Stack {
     //Please read sample.java file before starting.
