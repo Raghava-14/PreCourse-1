@@ -1,8 +1,8 @@
 // The Time Complexity for this program is: O(1)
 // Space Complexity is: O(1)
-class Stack { 
+class Stack {
     //Please read sample.java file before starting.
-  //Kindly include Time and Space complexity at top of each file
+    //Kindly include Time and Space complexity at top of each file
     static final int MAX = 1000; 
     int top; 
     int a[] = new int[MAX]; // Maximum size of Stack 
@@ -10,12 +10,7 @@ class Stack {
     boolean isEmpty() 
     { 
         //Write your code here 
-        if(a.length == 0){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return top == -1;
     } 
 
     Stack() 
@@ -49,15 +44,14 @@ class Stack {
             return 0;
         }
         else{
-            top = top - 1;
-            return a[top] + 1;
+            return a[top--];
         }
     } 
   
     int peek() 
     { 
         //Write your code here
-        if(top == 0){
+        if (isEmpty()) {
             System.out.println("Stack is Empty");
             return 0;
         }
